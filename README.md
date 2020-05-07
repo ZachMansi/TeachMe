@@ -3,6 +3,8 @@
 A simple web page to quickly navigate Arabic letter pronunciations for on the fly teaching.
 
 ![alt](https://github.com/ZachMansi/TeachMe/blob/master/Home.png)
+![alt](https://github.com/ZachMansi/TeachMe/blob/master/Diagram.png)
+
 ## Getting Started
 
 1. Download or clone the repository to your computer.
