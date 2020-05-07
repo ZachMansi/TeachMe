@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <body>
+        <div class="wrapper">
+            <p>
+                <span></span>
+                <span>Tajweed</span>
+                <span>Makharij</span>
+            </p>
+            <div id = "alphabet">
+                <div class="row">
+                    <div class="col-3" onclick="show('tha')">ث</div>
+                    <div class="col-3" onclick="show('ta')">ت</div>
+                    <div class="col-3" onclick="show('ba')">ب</div>
+                    <div class="col-3" onclick="show('alif')">ء</div>
+                </div>
+                <div class="row">
+                    <div class="col-3" onclick="show('daal')">د</div>
+                    <div class="col-3" onclick="show('kha')">خ</div>
+                    <div class="col-3" onclick="show('ha')">ح</div>
+                    <div class="col-3" onclick="show('jeem')">ج</div>
+                </div>
+                <div class="row">
+                        <div class="col-3" onclick="show('seen')">س</div>
+                        <div class="col-3" onclick="show('zay')">ز</div>
+                        <div class="col-3" onclick="show('ra')">ر</div>
+                        <div class="col-3" onclick="show('zhaal')">ذ</div>
+                </div>
+                <div class="row">
+                        <div class="col-3" onclick="show('tua')">ط</div>
+                        <div class="col-3" onclick="show('duaad')">ض</div>
+                        <div class="col-3" onclick="show('suaad')">ص</div>
+                        <div class="col-3" onclick="show('sheen')">ش</div>
+                </div>
+                <div class="row">
+                        <div class="col-3" onclick="show('faa')">ف</div>
+                        <div class="col-3" onclick="show('ghayn')">غ</div>
+                        <div class="col-3" onclick="show('ayn')">ع</div>
+                        <div class="col-3" onclick="show('zua')">ظ</div>
+                </div>
+                <div class="row">
+                        
+                        
+                        <div class="col-3" onclick="show('meem')">م</div>
+                        <div class="col-3" onclick="show('lam')">ل</div>
+                        <div class="col-3" onclick="show('kaaf')">ك</div>
+                        <div class="col-3" onclick="show('qaaf')">ق</div>
+                        
+                </div>
+                <div class="row">
+                        <div class="col-3" onclick="show('ya')">ي</div>
+                        <div class="col-3" onclick="show('wow')">و</div>
+                        <div class="col-3" onclick="show('hamzah')">ه</div>
+                        <div class="col-3" onclick="show('nun')">ن</div>
+                        
+                </div>
+                <div class="row">
+                        <div class="col-4" onclick="show('harakat')">Harakat</div>
+                        <div class="col-4" onclick="show('ghunnah')">Ghunnah</div>
+                        <div class="col-4" onclick="show('areas')">5 Major Areas</div>
+                        
+                </div>
+            </div>
+            <div class="img-container">
+                <img id="alif" src="complete-makharij/Ha & Hamzah.jpg" onclick="hide('alif')" style= "max-height: 75vh;display: none;">
+                <img id="ba" src="complete-makharij/Ba.jpg" onclick="hide('ba')" style= "max-height: 75vh;display: none;">
+                <img id="ta" src="complete-makharij/Daal, Taa, & Tua.jpg" onclick="hide('ta')" style= "max-height: 75vh;display: none;">
+                <img id="tha" src="complete-makharij/Thaa, Zhaal, & Zua.jpg" onclick="hide('tha')" style= "max-height: 75vh;display: none;">
+
+                <img id="jeem" src="complete-makharij/Yaa, Sheen, & Jeem.jpg" onclick="hide('jeem')" style= "max-height: 75vh;display: none;">
+                <img id="ha" src="complete-makharij/Ha & Ayn.jpg" onclick="hide('ha')" style= "max-height: 75vh;display: none;">
+                <img id="kha" src="complete-makharij/Ghayn & Kha.jpg" onclick="hide('kha')" style= "max-height: 75vh;display: none;">
+                <img id="daal" src="complete-makharij/Daal, Taa, & Tua.jpg" onclick="hide('daal')" style= "max-height: 75vh;display: none;">
+
+                <img id="zhaal" src="complete-makharij/Thaa, Zhaal, & Zua.jpg" onclick="hide('zhaal')" style= "max-height: 75vh;display: none;">
+                <img id="ra" src="complete-makharij/Raa.jpg" onclick="hide('ra')" style= "max-height: 75vh;display: none;">
+                <img id="zay" src="complete-makharij/Suaad, Seen, & Zaa.jpg" onclick="hide('zay')" style= "max-height: 75vh;display: none;">
+                <img id="seen" src="complete-makharij/Suaad, Seen, & Zaa.jpg" onclick="hide('seen')" style= "max-height: 75vh;display: none;">
+
+                <img id="sheen" src="complete-makharij/Yaa, Sheen, & Jeem.jpg" onclick="hide('sheen')" style= "max-height: 75vh;display: none;">
+                <img id="suaad" src="complete-makharij/Suaad, Seen, & Zaa.jpg" onclick="hide('suaad')" style= "max-height: 75vh;display: none;">
+                <img id="duaad" src="complete-makharij/Daad.jpg" onclick="hide('duaad')" style= "max-height: 75vh;display: none;">
+                <img id="tua" src="complete-makharij/Daal, Taa, & Tua.jpg" onclick="hide('tua')" style= "max-height: 75vh;display: none;">
+
+                <img id="zua" src="complete-makharij/Thaa, Zhaal, & Zua.jpg" onclick="hide('zua')" style= "max-height: 75vh;display: none;">
+                <img id="ayn" src="complete-makharij/Ha & Ayn.jpg" onclick="hide('ayn')" style= "max-height: 75vh;display: none;">
+                <img id="faa" src="complete-makharij/Faa.jpg" onclick="hide('faa')" style= "max-height: 75vh;display: none;">
+                <img id="qaaf" src="complete-makharij/Qaaf.jpg" onclick="hide('qaaf')" style= "max-height: 75vh;display: none;">
+
+                <img id="kaaf" src="complete-makharij/Kaaf.jpg" onclick="hide('kaaf')" style= "max-height: 75vh;display: none;">
+                <img id="lam" src="complete-makharij/Laam.jpg" onclick="hide('lam')" style= "max-height: 75vh;display: none;">
+                <img id="meem" src="complete-makharij/Meem.jpg" onclick="hide('meem')" style= "max-height: 75vh;display: none;">
+                <img id="nun" src="complete-makharij/Noon.jpg" onclick="hide('nun')" style= "max-height: 75vh;display: none;">
+                
+                <img id="hamzah" src="complete-makharij/Ha & Hamzah.jpg" onclick="hide('hamzah')" style= "max-height: 75vh;display: none;">
+                <img id="wow" src="complete-makharij/Wao.jpg" onclick="hide('wow')" style= "max-height: 75vh;display: none;">
+                <img id="ya" src="complete-makharij/Yaa, Sheen, & Jeem.jpg" onclick="hide('ya')" style= "max-height: 75vh;display: none;">
+                <img id="ghayn" src="complete-makharij/Ghayn & Kha.jpg" onclick="hide('ghayn')" style= "max-height: 75vh;display: none;">
+
+                <img id="harakat" src="complete-makharij/the-empty mouth.jpg" onclick="hide('harakat')" style= "max-height: 75vh;display: none;">
+                <img id="ghunnah" src="complete-makharij/the-nose.jpg" onclick="hide('ghunnah')" style= "max-height: 75vh;display: none;">
+                <img id="areas" src="complete-makharij/5 Major Areas Pic.jpg" onclick="hide('areas')" style= "max-height: 75vh;display: none;">
+            </div>
+            
+        </div>
+    </body>
+</html>

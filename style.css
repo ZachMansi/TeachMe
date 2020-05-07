@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,300);
+.html,
+body {
+  min-height: 100%;
+  background-color: #c8d6e5;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto 1.5em;
+}
+
+/* Title */
+.wrapper > p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  line-height: .8;
+  width: 225px;
+  margin: 1em auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper > p span {
+  display: block;
+  padding: 2px;
+  color: #b05574;
+}
+
+.wrapper > p span:nth-child(1) {
+  letter-spacing: .3em;
+  color: #aaa;
+}
+
+.wrapper > p span:nth-child(2) {
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: .015em;
+}
+
+.wrapper > p span:nth-child(3) {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: .015em;
+}
+
+/* 
+    Fluid Grid system 
+
+*/
+/* .row */
+.row {
+  margin-top: 2.0833%;
+  padding: 0 1.04165%;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+/* col */
+.row [class^='col-'] {
+  float: left;
+  min-height: 50px;
+  margin-left: 2.083333%;
+  background: #2e86de;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+
+.row [class^='col-']:first-child {
+  margin-left: 0;
+}
+
+/* .col-1 */
+.row .col-1 {
+  width: 6.42291%;
+}
+
+/* .col-2 */
+.row .col-2 {
+  width: 14.930208%;
+}
+
+/* .col-3 */
+.row .col-3 {
+  width: 23.4375%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;  
+  color: white;
+  font-size: 1.7em;
+}
+
+.row .col-3:hover{
+    background: #54a0ff;
+}
+
+/* .col-4 */
+.row .col-4 {
+  width: 31.94375%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;  
+  color: white;
+  font-size: 1.7em;
+  background: #ff9f43;
+}
+.row .col-4:hover{
+    background: #feca57;
+}
+
+/* .col-5 */
+.row .col-5 {
+  width: 40.25%;
+}
+
+/* .col-6 */
+.row .col-6 {
+  width: 48.958333%;
+}
+
+/* .col-7 */
+.row .col-7 {
+  width: 57.464583%;
+}
+
+/* .col-8 */
+.row .col-8 {
+  width: 65.970833%;
+}
+
+/* .col-9 */
+.row .col-9 {
+  width: 74.404166%;
+}
+
+/* .col-10 */
+.row .col-10 {
+  width: 82.9833%;
+}
+
+/* .col-11 */
+.row .col-11 {
+  width: 91.489583%;
+}
+
+/* .col-12 */
+.row .col-12 {
+  width: 100%;
+}
+
+/* 
+
+    Mediaqueries 
+
+*/
+@media screen and (max-width: 768px) {
+  .row {
+    margin-top: 0;
+  }
+
+  .row [class^='col-'] {
+    width: 100%;
+    margin-top: 2.0833%;
+    margin-left: 0;
+  }
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    
+  }
