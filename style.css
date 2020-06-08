@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:700,300);
 .html,
 body {
-  min-height: 100%;
-  background-color: #c8d6e5;
+  max-height: 100%;
+  background-color: whitesmoke;
 }
 
 *,
@@ -14,6 +14,7 @@ body {
 .wrapper {
   max-width: 1100px;
   margin: 0 auto 1.5em;
+  padding-bottom: 30px;
 }
 
 /* Title */
@@ -92,6 +93,8 @@ body {
   width: 14.930208%;
 }
 
+
+
 /* .col-3 */
 .row .col-3 {
   width: 23.4375%;
@@ -100,10 +103,11 @@ body {
   line-height: 50px;  
   color: white;
   font-size: 1.7em;
+  background: #1B9CFC;
 }
 
 .row .col-3:hover{
-    background: #54a0ff;
+    background: #25CCF7;
 }
 
 /* .col-4 */
@@ -113,13 +117,34 @@ body {
   vertical-align: middle;
   line-height: 50px;  
   color: white;
-  font-size: 1.7em;
-  background: #ff9f43;
+  font-size: 1.5em;
+  background: #EAB543;
 }
+
+
 .row .col-4:hover{
     background: #feca57;
 }
 
+.row .col-4_Sifaat {
+  width: 31.94375%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;  
+  color: white;
+  font-size: 1.5em;
+  background: #58B19F;
+}
+
+.row .col-4_Sifaat:hover{
+  background: #55E6C1;;
+}
+
+p.body{
+  font-size: 0.8em;
+  line-height: 25px;  
+  
+}
 /* .col-5 */
 .row .col-5 {
   width: 40.25%;
@@ -128,6 +153,15 @@ body {
 /* .col-6 */
 .row .col-6 {
   width: 48.958333%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;  
+  color: white;
+  font-size: 1.5em;
+  background: #58B19F;
+}
+.row .col-6:hover{
+  background: #55E6C1;;
 }
 
 /* .col-7 */
